@@ -722,6 +722,16 @@
 		56A64DF1198F72E900451413 /* yulan-button-bukedian-100_58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A64CBE198F72E900451413 /* yulan-button-bukedian-100_58@2x.png */; };
 		56A64DF2198F72E900451413 /* yulan-button-kedian-100_58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A64CBF198F72E900451413 /* yulan-button-kedian-100_58@2x.png */; };
 		56A64DF3198F72E900451413 /* yulan-button-kedian-100_58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A64CBF198F72E900451413 /* yulan-button-kedian-100_58@2x.png */; };
+		56A64DF6198F7AF500451413 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64DF5198F7AF500451413 /* ChatViewController.m */; };
+		56A64DF7198F7AF500451413 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64DF5198F7AF500451413 /* ChatViewController.m */; };
+		56A64DFC198F7B1E00451413 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64DF9198F7B1E00451413 /* ChatModel.m */; };
+		56A64DFD198F7B1E00451413 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64DF9198F7B1E00451413 /* ChatModel.m */; };
+		56A64DFE198F7B1E00451413 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64DFB198F7B1E00451413 /* MessageModel.m */; };
+		56A64DFF198F7B1E00451413 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64DFB198F7B1E00451413 /* MessageModel.m */; };
+		56A64E04198F7B2C00451413 /* CustomChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64E01198F7B2C00451413 /* CustomChatViewCell.m */; };
+		56A64E05198F7B2C00451413 /* CustomChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64E01198F7B2C00451413 /* CustomChatViewCell.m */; };
+		56A64E06198F7B2C00451413 /* CustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64E03198F7B2C00451413 /* CustomMessageCell.m */; };
+		56A64E07198F7B2C00451413 /* CustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64E03198F7B2C00451413 /* CustomMessageCell.m */; };
 		B15A5508DFA84914A2D845DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3093716B5174DF29B814680 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -1224,6 +1234,16 @@
 		56A64CBD198F72E900451413 /* wnacheng-button-kedian-100_58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wnacheng-button-kedian-100_58@2x.png"; sourceTree = "<group>"; };
 		56A64CBE198F72E900451413 /* yulan-button-bukedian-100_58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yulan-button-bukedian-100_58@2x.png"; sourceTree = "<group>"; };
 		56A64CBF198F72E900451413 /* yulan-button-kedian-100_58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yulan-button-kedian-100_58@2x.png"; sourceTree = "<group>"; };
+		56A64DF4198F7AF500451413 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		56A64DF5198F7AF500451413 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		56A64DF8198F7B1E00451413 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		56A64DF9198F7B1E00451413 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		56A64DFA198F7B1E00451413 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		56A64DFB198F7B1E00451413 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		56A64E00198F7B2C00451413 /* CustomChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomChatViewCell.h; sourceTree = "<group>"; };
+		56A64E01198F7B2C00451413 /* CustomChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomChatViewCell.m; sourceTree = "<group>"; };
+		56A64E02198F7B2C00451413 /* CustomMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMessageCell.h; sourceTree = "<group>"; };
+		56A64E03198F7B2C00451413 /* CustomMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMessageCell.m; sourceTree = "<group>"; };
 		D3093716B5174DF29B814680 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5F1F3A29F440FB92E1246 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1544,6 +1564,8 @@
 		56A64842198F455600451413 /* MessageControllers */ = {
 			isa = PBXGroup;
 			children = (
+				56A64DF4198F7AF500451413 /* ChatViewController.h */,
+				56A64DF5198F7AF500451413 /* ChatViewController.m */,
 				56A64845198F45DB00451413 /* MessageViewController.h */,
 				56A64846198F45DB00451413 /* MessageViewController.m */,
 			);
@@ -1553,6 +1575,10 @@
 		56A64843198F455600451413 /* MessageModels */ = {
 			isa = PBXGroup;
 			children = (
+				56A64DF8198F7B1E00451413 /* ChatModel.h */,
+				56A64DF9198F7B1E00451413 /* ChatModel.m */,
+				56A64DFA198F7B1E00451413 /* MessageModel.h */,
+				56A64DFB198F7B1E00451413 /* MessageModel.m */,
 			);
 			path = MessageModels;
 			sourceTree = "<group>";
@@ -1560,6 +1586,10 @@
 		56A64844198F455600451413 /* MessageViews */ = {
 			isa = PBXGroup;
 			children = (
+				56A64E00198F7B2C00451413 /* CustomChatViewCell.h */,
+				56A64E01198F7B2C00451413 /* CustomChatViewCell.m */,
+				56A64E02198F7B2C00451413 /* CustomMessageCell.h */,
+				56A64E03198F7B2C00451413 /* CustomMessageCell.m */,
 			);
 			path = MessageViews;
 			sourceTree = "<group>";
@@ -3064,6 +3094,7 @@
 				56A64B9A198F6BD400451413 /* SuggestFriendViewController.m in Sources */,
 				56A648FE198F512A00451413 /* QBShowImageDetailViewController.m in Sources */,
 				56A64A4D198F6A1100451413 /* ChatInputView.m in Sources */,
+				56A64E04198F7B2C00451413 /* CustomChatViewCell.m in Sources */,
 				56A64ABC198F6AD800451413 /* GscanfViewController.m in Sources */,
 				56A6488C198F502700451413 /* NSString+Emoji.m in Sources */,
 				56A648F0198F512A00451413 /* QBImagePickerAssetCell.m in Sources */,
@@ -3076,6 +3107,7 @@
 				56A648FC198F512A00451413 /* QBImagePickerVideoInfoView.m in Sources */,
 				56A64A3F198F69A800451413 /* FBCircleDetailPraiseView.m in Sources */,
 				56A64886198F502700451413 /* FBCircleUploadData.m in Sources */,
+				56A64DF6198F7AF500451413 /* ChatViewController.m in Sources */,
 				56A64A12198F696000451413 /* WritePreviewDeleteViewController.m in Sources */,
 				56A64917198F55A500451413 /* FBCircleCommentModel.m in Sources */,
 				56A64AB2198F6AD800451413 /* GmyFootViewController.m in Sources */,
@@ -3107,17 +3139,20 @@
 				56A648EE198F512A00451413 /* QBAssetCollectionViewController.m in Sources */,
 				56A64B51198F6BC700451413 /* FbFriendListHeaderView.m in Sources */,
 				56A648DA198F512A00451413 /* ChooseCountryViewController.m in Sources */,
+				56A64DFE198F7B1E00451413 /* MessageModel.m in Sources */,
 				56A64B55198F6BC700451413 /* FbmessageinvitationCell.m in Sources */,
 				56A648DC198F512A00451413 /* FBCircleWebViewController.m in Sources */,
 				56A64BF2198F6CA200451413 /* UMContactViewController.m in Sources */,
 				56A64900198F512A00451413 /* QBShowImagesScrollView.m in Sources */,
 				56A64B14198F6AD800451413 /* GlocalUserTextData.m in Sources */,
 				56A64B5F198F6BC700451413 /* OfficalSuggestCell.m in Sources */,
+				56A64DFC198F7B1E00451413 /* ChatModel.m in Sources */,
 				56A64905198F517800451413 /* pinyin.c in Sources */,
 				56A648E2198F512A00451413 /* FMDatabase.m in Sources */,
 				56A64B4F198F6BC700451413 /* ConnectofMineView.m in Sources */,
 				56A6483C198F42F600451413 /* MainViewController.m in Sources */,
 				56A64AB4198F6AD800451413 /* GmyMessageViewController.m in Sources */,
+				56A64E06198F7B2C00451413 /* CustomMessageCell.m in Sources */,
 				56A64A3B198F69A800451413 /* FBCircleCustomCell.m in Sources */,
 				56A64B1E198F6AD800451413 /* MLImageCrop.m in Sources */,
 				56A64882198F502700451413 /* SzkLoadData.m in Sources */,
@@ -3177,6 +3212,7 @@
 				56A648DD198F512A00451413 /* FBCircleWebViewController.m in Sources */,
 				56A648F3198F512A00451413 /* QBImagePickerAssetView.m in Sources */,
 				56A64B27198F6AD800451413 /* GavatarView.m in Sources */,
+				56A64E05198F7B2C00451413 /* CustomChatViewCell.m in Sources */,
 				56A648EF198F512A00451413 /* QBAssetCollectionViewController.m in Sources */,
 				56A64820198F3A8B00451413 /* FBCircleTests.m in Sources */,
 				56A64B1D198F6AD800451413 /* GHolderTextView.m in Sources */,
@@ -3190,6 +3226,7 @@
 				56A64AB7198F6AD800451413 /* GpersonallSettingViewController.m in Sources */,
 				56A648FD198F512A00451413 /* QBImagePickerVideoInfoView.m in Sources */,
 				56A64891198F502700451413 /* ZSNApi.m in Sources */,
+				56A64DF7198F7AF500451413 /* ChatViewController.m in Sources */,
 				56A648DF198F512A00451413 /* DataBase.m in Sources */,
 				56A64BFB198F6CA200451413 /* UMFeedbackViewController.m in Sources */,
 				56A64BF7198F6CA200451413 /* UMFeedbackTableViewCellLeft.m in Sources */,
@@ -3228,10 +3265,12 @@
 				56A648E9198F512A00451413 /* EGORefreshTableHeaderView.m in Sources */,
 				56A6491E198F55A500451413 /* FBCirclePraiseModel.m in Sources */,
 				56A64B62198F6BC700451413 /* SuggestFriendCell.m in Sources */,
+				56A64DFF198F7B1E00451413 /* MessageModel.m in Sources */,
 				56A64B91198F6BD400451413 /* MessageInvitationViewController.m in Sources */,
 				56A64B4E198F6BC700451413 /* AddFriendCustomCell.m in Sources */,
 				56A648FB198F512A00451413 /* QBImagePickerGroupCell.m in Sources */,
 				56A64B85198F6BD400451413 /* AddFriendViewController.m in Sources */,
+				56A64E07198F7B2C00451413 /* CustomMessageCell.m in Sources */,
 				56A64A4A198F69BE00451413 /* FBCircleDetailViewController.m in Sources */,
 				56A64A40198F69A800451413 /* FBCircleDetailPraiseView.m in Sources */,
 				56A64ABF198F6AD800451413 /* GupData.m in Sources */,
@@ -3272,6 +3311,7 @@
 				56A6488D198F502700451413 /* NSString+Emoji.m in Sources */,
 				56A64B93198F6BD400451413 /* NewFriendViewController.m in Sources */,
 				56A64B19198F6AD800451413 /* LoadingIndicatorView.m in Sources */,
+				56A64DFD198F7B1E00451413 /* ChatModel.m in Sources */,
 				56A64A11198F696000451413 /* WriteBlogViewController.m in Sources */,
 				56A6491C198F55A500451413 /* FBCircleModel.m in Sources */,
 				56A64B15198F6AD800451413 /* GlocalUserTextData.m in Sources */,
