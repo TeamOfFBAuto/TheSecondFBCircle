@@ -734,7 +734,6 @@
 		56A64E07198F7B2C00451413 /* CustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64E03198F7B2C00451413 /* CustomMessageCell.m */; };
 		B15A5508DFA84914A2D845DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3093716B5174DF29B814680 /* libPods.a */; };
 		E3B9CAD41990AC9D00DE07F4 /* GmFoundScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B9CAD31990AC9D00DE07F4 /* GmFoundScanViewController.m */; };
-		E3D313911990DCAC00EE1B9C /* libPods-BaiduMapSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D313901990DCAC00EE1B9C /* libPods-BaiduMapSDK.a */; };
 		E3E2FBAB1990B93E0062A4F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2FBAA1990B93E0062A4F2 /* AVFoundation.framework */; };
 		E3E2FBAE1990D0940062A4F2 /* GuseCarViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3E2FBAD1990D0940062A4F2 /* GuseCarViewController.mm */; };
 		E3E2FBB01990D4810062A4F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2FBAF1990D4810062A4F2 /* Security.framework */; };
@@ -1271,7 +1270,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3D313911990DCAC00EE1B9C /* libPods-BaiduMapSDK.a in Frameworks */,
 				56A647F7198F3A8B00451413 /* CoreGraphics.framework in Frameworks */,
 				E3E2FBB61990D4DB0062A4F2 /* SystemConfiguration.framework in Frameworks */,
 				56A64C09198F6ED100451413 /* CoreLocation.framework in Frameworks */,
@@ -3477,12 +3475,10 @@
 				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
 				INFOPLIST_FILE = "FBCircle/FBCircle-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3498,12 +3494,10 @@
 				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
 				INFOPLIST_FILE = "FBCircle/FBCircle-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
