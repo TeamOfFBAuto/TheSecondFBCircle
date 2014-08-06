@@ -12,6 +12,7 @@
 #import "UIColor+ConvertColor.h"
 #import "UIView+Frame.h"
 #import "UIImageView+WebCache.h"
+#import "LButtonView.h"
 
 #define ERROR_INFO @"ERRO_INFO" //错误信息
 

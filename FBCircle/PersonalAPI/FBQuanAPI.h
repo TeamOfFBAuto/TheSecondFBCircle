@@ -162,6 +162,8 @@ alpha:(a)]
 
 #define FBCIRCLE_PERSONAL_IMAGE_URL @"http://quan.fblife.com/index.php?c=interface&a=getuserhead&uid=%@&fbtype=json"
 
+//微论坛接口
 
+#define FBCIRCL_MICROBBS_BBSCLASS @"http://quan.fblife.com/index.php?c=forum&a=getforumclass"//官方论坛分类
 
 

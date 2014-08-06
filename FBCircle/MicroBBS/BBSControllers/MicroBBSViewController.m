@@ -9,6 +9,8 @@
 #import "MicroBBSViewController.h"
 #import "MyBBSViewController.h"
 #import "HotTopicViewController.h"
+#import "ClassifyBBSController.h"
+
 #import "LTools.h"
 #import "LSecionView.h"
 #import "BBSTableCell.h"
@@ -114,7 +116,9 @@
  */
 - (void)clickToClassifyBBS
 {
-    
+    ClassifyBBSController *classify = [[ClassifyBBSController alloc]init];
+    classify.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:classify animated:YES];
 }
 
 /**
