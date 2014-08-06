@@ -6,6 +6,8 @@
 //  Copyright (c) 2014年 soulnear. All rights reserved.
 //
 
+
+//扫一扫VC
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 @interface GmFoundScanViewController : UIViewController<AVCaptureMetadataOutputObjectsDelegate>

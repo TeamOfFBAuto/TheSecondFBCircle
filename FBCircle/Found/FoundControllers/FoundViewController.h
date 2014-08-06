@@ -6,6 +6,8 @@
 //  Copyright (c) 2014年 soulnear. All rights reserved.
 //
 
+
+//tabbar上的发现
 #import <UIKit/UIKit.h>
 
 @interface FoundViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>

@@ -22,10 +22,6 @@
 
 
 
-
-
-
-
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -103,7 +99,12 @@
     
     
     
-    
+    // 要使用百度地图，请先启动BaiduMapManager
+    _mapManager = [[BMKMapManager alloc]init];
+    BOOL ret = [_mapManager start:@"f985Mywkhv2tLIQnGazj4VAZ"  generalDelegate:nil];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
     
     [self.window makeKeyAndVisible];
     return YES;
