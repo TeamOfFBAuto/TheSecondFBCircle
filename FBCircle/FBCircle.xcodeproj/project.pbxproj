@@ -41,6 +41,13 @@
 		136602AE1990B6D600F2BEEC /* LBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136602AD1990B6D600F2BEEC /* LBaseViewController.m */; };
 		136602B81990C3B200F2BEEC /* bluedown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136602B01990C3B200F2BEEC /* bluedown@2x.png */; };
 		136602B91990C3B200F2BEEC /* blueup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136602B11990C3B200F2BEEC /* blueup@2x.png */; };
+		1368544519920D84004BBB20 /* ClassifyBBSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368544419920D84004BBB20 /* ClassifyBBSController.m */; };
+		1368544B19921170004BBB20 /* LButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368544A19921170004BBB20 /* LButtonView.m */; };
+		1368544D19921AFC004BBB20 /* defaultPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1368544C19921AFC004BBB20 /* defaultPlaceHolder.png */; };
+		1368545019922B5A004BBB20 /* ClassifyBBSController_Sub.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368544F19922B5A004BBB20 /* ClassifyBBSController_Sub.m */; };
+		1368545419922D61004BBB20 /* JoinBBSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368545219922D61004BBB20 /* JoinBBSCell.m */; };
+		1368545519922D61004BBB20 /* JoinBBSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1368545319922D61004BBB20 /* JoinBBSCell.xib */; };
+		1368545819923736004BBB20 /* BBSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368545719923736004BBB20 /* BBSModel.m */; };
 		136D3AA81990C6D90052E808 /* LRefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 136D3AA71990C6D90052E808 /* LRefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		136D3AAB1990DB950052E808 /* LSecionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 136D3AAA1990DB950052E808 /* LSecionView.m */; };
 		1371C5641991D63E00D937CD /* daohanglan_bg_640_88@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1371C5631991D63E00D937CD /* daohanglan_bg_640_88@2x.png */; };
@@ -842,6 +849,18 @@
 		136602AD1990B6D600F2BEEC /* LBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBaseViewController.m; sourceTree = "<group>"; };
 		136602B01990C3B200F2BEEC /* bluedown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluedown@2x.png"; sourceTree = "<group>"; };
 		136602B11990C3B200F2BEEC /* blueup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueup@2x.png"; sourceTree = "<group>"; };
+		1368544319920D84004BBB20 /* ClassifyBBSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyBBSController.h; sourceTree = "<group>"; };
+		1368544419920D84004BBB20 /* ClassifyBBSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyBBSController.m; sourceTree = "<group>"; };
+		1368544919921170004BBB20 /* LButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LButtonView.h; sourceTree = "<group>"; };
+		1368544A19921170004BBB20 /* LButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LButtonView.m; sourceTree = "<group>"; };
+		1368544C19921AFC004BBB20 /* defaultPlaceHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPlaceHolder.png; sourceTree = "<group>"; };
+		1368544E19922B5A004BBB20 /* ClassifyBBSController_Sub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyBBSController_Sub.h; sourceTree = "<group>"; };
+		1368544F19922B5A004BBB20 /* ClassifyBBSController_Sub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyBBSController_Sub.m; sourceTree = "<group>"; };
+		1368545119922D61004BBB20 /* JoinBBSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinBBSCell.h; sourceTree = SOURCE_ROOT; };
+		1368545219922D61004BBB20 /* JoinBBSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinBBSCell.m; sourceTree = SOURCE_ROOT; };
+		1368545319922D61004BBB20 /* JoinBBSCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinBBSCell.xib; sourceTree = SOURCE_ROOT; };
+		1368545619923736004BBB20 /* BBSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSModel.h; sourceTree = SOURCE_ROOT; };
+		1368545719923736004BBB20 /* BBSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSModel.m; sourceTree = SOURCE_ROOT; };
 		136D3AA61990C6D90052E808 /* LRefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRefreshTableHeaderView.h; sourceTree = "<group>"; };
 		136D3AA71990C6D90052E808 /* LRefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRefreshTableHeaderView.m; sourceTree = "<group>"; };
 		136D3AA91990DB950052E808 /* LSecionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSecionView.h; sourceTree = "<group>"; };
@@ -1496,6 +1515,8 @@
 				136602AD1990B6D600F2BEEC /* LBaseViewController.m */,
 				136D3AA91990DB950052E808 /* LSecionView.h */,
 				136D3AAA1990DB950052E808 /* LSecionView.m */,
+				1368544919921170004BBB20 /* LButtonView.h */,
+				1368544A19921170004BBB20 /* LButtonView.m */,
 			);
 			path = LApi;
 			sourceTree = "<group>";
@@ -1742,6 +1763,7 @@
 		56A6482E198F425400451413 /* MicroBBS */ = {
 			isa = PBXGroup;
 			children = (
+				1368544C19921AFC004BBB20 /* defaultPlaceHolder.png */,
 				56A6482F198F425400451413 /* BBSControllers */,
 				56A64830198F425400451413 /* BBSModels */,
 				56A64831198F425400451413 /* BBSViews */,
@@ -1758,6 +1780,10 @@
 				1371C5661991D9EE00D937CD /* MyBBSViewController.m */,
 				1371C5681991DDAE00D937CD /* HotTopicViewController.h */,
 				1371C5691991DDAE00D937CD /* HotTopicViewController.m */,
+				1368544319920D84004BBB20 /* ClassifyBBSController.h */,
+				1368544419920D84004BBB20 /* ClassifyBBSController.m */,
+				1368544E19922B5A004BBB20 /* ClassifyBBSController_Sub.h */,
+				1368544F19922B5A004BBB20 /* ClassifyBBSController_Sub.m */,
 			);
 			path = BBSControllers;
 			sourceTree = "<group>";
@@ -1765,6 +1791,8 @@
 		56A64830198F425400451413 /* BBSModels */ = {
 			isa = PBXGroup;
 			children = (
+				1368545619923736004BBB20 /* BBSModel.h */,
+				1368545719923736004BBB20 /* BBSModel.m */,
 			);
 			path = BBSModels;
 			sourceTree = "<group>";
@@ -1781,6 +1809,9 @@
 				1371C5701992010700D937CD /* HotTopicCell.h */,
 				1371C5711992010700D937CD /* HotTopicCell.m */,
 				1371C5721992010700D937CD /* HotTopicCell.xib */,
+				1368545119922D61004BBB20 /* JoinBBSCell.h */,
+				1368545219922D61004BBB20 /* JoinBBSCell.m */,
+				1368545319922D61004BBB20 /* JoinBBSCell.xib */,
 			);
 			path = BBSViews;
 			sourceTree = "<group>";
@@ -3022,6 +3053,7 @@
 				56A64AE2198F6AD800451413 /* geren_sao_down212_212@2x.png in Resources */,
 				56A64BD0198F6CA200451413 /* item_cancel_selected@2x.png in Resources */,
 				56A64AE4198F6AD800451413 /* geren_sao_up212_212@2x.png in Resources */,
+				1368545519922D61004BBB20 /* JoinBBSCell.xib in Resources */,
 				56A64CF2198F72E900451413 /* headimg150_150@2x.png in Resources */,
 				56A64B06198F6AD800451413 /* tixiang-jiantou-16_26@2x.png in Resources */,
 				1366027A1990A82900F2BEEC /* +@2x.png in Resources */,
@@ -3223,6 +3255,7 @@
 				136602881990A82900F2BEEC /* gongyi@2x.png in Resources */,
 				56A64A1A198F698B00451413 /* locationMarkImage@2x.png in Resources */,
 				56A64DAC198F72E900451413 /* tianjia-44_44@2x.png in Resources */,
+				1368544D19921AFC004BBB20 /* defaultPlaceHolder.png in Resources */,
 				56A64DC8198F72E900451413 /* tongxunlu-icon-94_94@2x.png in Resources */,
 				56A64AEE198F6AD800451413 /* gfengmian_loading_640_512@2x.png in Resources */,
 				56A64D60198F72E900451413 /* Expression_6@2x.png in Resources */,
@@ -3558,6 +3591,7 @@
 				56A64E04198F7B2C00451413 /* CustomChatViewCell.m in Sources */,
 				56A64ABC198F6AD800451413 /* GscanfViewController.m in Sources */,
 				56A6488C198F502700451413 /* NSString+Emoji.m in Sources */,
+				1368545419922D61004BBB20 /* JoinBBSCell.m in Sources */,
 				56A648F0198F512A00451413 /* QBImagePickerAssetCell.m in Sources */,
 				56A64B4B198F6BC700451413 /* FriendAttribute.m in Sources */,
 				190EAF3D1991D8F3006CF249 /* mineTableViewCell.m in Sources */,
@@ -3602,6 +3636,7 @@
 				56A6488E198F502700451413 /* ZSNAlertView.m in Sources */,
 				56A648D4198F512A00451413 /* FullyLoaded.m in Sources */,
 				56A6488A198F502700451413 /* MyViewController.m in Sources */,
+				1368545819923736004BBB20 /* BBSModel.m in Sources */,
 				56A648EE198F512A00451413 /* QBAssetCollectionViewController.m in Sources */,
 				56A64B51198F6BC700451413 /* FbFriendListHeaderView.m in Sources */,
 				56A648DA198F512A00451413 /* ChooseCountryViewController.m in Sources */,
@@ -3609,6 +3644,7 @@
 				56A64DFE198F7B1E00451413 /* MessageModel.m in Sources */,
 				56A64B55198F6BC700451413 /* FbmessageinvitationCell.m in Sources */,
 				136602AE1990B6D600F2BEEC /* LBaseViewController.m in Sources */,
+				1368544519920D84004BBB20 /* ClassifyBBSController.m in Sources */,
 				E3E2FBAE1990D0940062A4F2 /* GuseCarViewController.mm in Sources */,
 				56A648DC198F512A00451413 /* FBCircleWebViewController.m in Sources */,
 				56A64BF2198F6CA200451413 /* UMContactViewController.m in Sources */,
@@ -3633,6 +3669,7 @@
 				56A64B16198F6AD800451413 /* GTimeSwitch.m in Sources */,
 				56A64BFA198F6CA200451413 /* UMFeedbackViewController.m in Sources */,
 				56A648EA198F512A00451413 /* RTLabel.m in Sources */,
+				1368545019922B5A004BBB20 /* ClassifyBBSController_Sub.m in Sources */,
 				56A64B8E198F6BD400451413 /* MatchingAddressBookViewController.m in Sources */,
 				56A64A10198F696000451413 /* WriteBlogViewController.m in Sources */,
 				56A64A35198F69A800451413 /* NewFaceView.m in Sources */,
@@ -3652,6 +3689,7 @@
 				56A64A3D198F69A800451413 /* FBCircleDetailCommentsView.m in Sources */,
 				56A64B82198F6BD400451413 /* AboutFBQuanViewController.m in Sources */,
 				56A64AAE198F6AD800451413 /* GfeiHaoyouFootViewController.m in Sources */,
+				1368544B19921170004BBB20 /* LButtonView.m in Sources */,
 				56A64888198F502700451413 /* GrayPageControl.m in Sources */,
 				56A648E4198F512A00451413 /* FMDatabaseAdditions.m in Sources */,
 				56A64AB8198F6AD800451413 /* GQianmingViewController.m in Sources */,
