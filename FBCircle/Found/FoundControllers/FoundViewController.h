@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FoundViewController : UIViewController
-
+@interface FoundViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    UITableView *_tableView;//主tableview
+    
+}
 @end

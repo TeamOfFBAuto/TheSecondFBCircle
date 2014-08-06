@@ -773,6 +773,13 @@
 		56A64E06198F7B2C00451413 /* CustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64E03198F7B2C00451413 /* CustomMessageCell.m */; };
 		56A64E07198F7B2C00451413 /* CustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A64E03198F7B2C00451413 /* CustomMessageCell.m */; };
 		B15A5508DFA84914A2D845DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3093716B5174DF29B814680 /* libPods.a */; };
+		E3B9CAD41990AC9D00DE07F4 /* GmFoundScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B9CAD31990AC9D00DE07F4 /* GmFoundScanViewController.m */; };
+		E3E2FBAB1990B93E0062A4F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2FBAA1990B93E0062A4F2 /* AVFoundation.framework */; };
+		E3E2FBAE1990D0940062A4F2 /* GuseCarViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3E2FBAD1990D0940062A4F2 /* GuseCarViewController.mm */; };
+		E3E2FBB01990D4810062A4F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2FBAF1990D4810062A4F2 /* Security.framework */; };
+		E3E2FBB21990D48C0062A4F2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2FBB11990D48C0062A4F2 /* MessageUI.framework */; };
+		E3E2FBB41990D4980062A4F2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2FBB31990D4980062A4F2 /* OpenGLES.framework */; };
+		E3E2FBB61990D4DB0062A4F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E2FBB51990D4DB0062A4F2 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1337,6 +1344,16 @@
 		56A64E02198F7B2C00451413 /* CustomMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMessageCell.h; sourceTree = "<group>"; };
 		56A64E03198F7B2C00451413 /* CustomMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMessageCell.m; sourceTree = "<group>"; };
 		D3093716B5174DF29B814680 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B9CAD21990AC9D00DE07F4 /* GmFoundScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GmFoundScanViewController.h; sourceTree = "<group>"; };
+		E3B9CAD31990AC9D00DE07F4 /* GmFoundScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GmFoundScanViewController.m; sourceTree = "<group>"; };
+		E3D313901990DCAC00EE1B9C /* libPods-BaiduMapSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-BaiduMapSDK.a"; path = "Pods/build/Debug-iphoneos/libPods-BaiduMapSDK.a"; sourceTree = "<group>"; };
+		E3E2FBAA1990B93E0062A4F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E3E2FBAC1990D0940062A4F2 /* GuseCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuseCarViewController.h; sourceTree = "<group>"; };
+		E3E2FBAD1990D0940062A4F2 /* GuseCarViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GuseCarViewController.mm; sourceTree = "<group>"; };
+		E3E2FBAF1990D4810062A4F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E3E2FBB11990D48C0062A4F2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E3E2FBB31990D4980062A4F2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E3E2FBB51990D4DB0062A4F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EFC5F1F3A29F440FB92E1246 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1345,19 +1362,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A647F7198F3A8B00451413 /* CoreGraphics.framework in Frameworks */,
+				E3E2FBB61990D4DB0062A4F2 /* SystemConfiguration.framework in Frameworks */,
+				56A64C09198F6ED100451413 /* CoreLocation.framework in Frameworks */,
+				56A64A01198F584D00451413 /* QuartzCore.framework in Frameworks */,
+				E3E2FBB41990D4980062A4F2 /* OpenGLES.framework in Frameworks */,
+				E3E2FBB21990D48C0062A4F2 /* MessageUI.framework in Frameworks */,
+				E3E2FBB01990D4810062A4F2 /* Security.framework in Frameworks */,
+				E3E2FBAB1990B93E0062A4F2 /* AVFoundation.framework in Frameworks */,
 				56A64C0F198F6F0800451413 /* MobileCoreServices.framework in Frameworks */,
 				56A64C0D198F6EEA00451413 /* OpenAL.framework in Frameworks */,
 				56A64C0B198F6EE200451413 /* CoreTelephony.framework in Frameworks */,
-				56A64C09198F6ED100451413 /* CoreLocation.framework in Frameworks */,
 				56A64C06198F6EC800451413 /* AddressBook.framework in Frameworks */,
 				56A64C07198F6EC800451413 /* AddressBookUI.framework in Frameworks */,
 				56A64C03198F6EA100451413 /* AssetsLibrary.framework in Frameworks */,
 				56A64A05198F586100451413 /* libz.1.2.5.dylib in Frameworks */,
 				56A64A03198F585B00451413 /* libsqlite3.dylib in Frameworks */,
-				56A64A01198F584D00451413 /* QuartzCore.framework in Frameworks */,
 				56A649FF198F584900451413 /* MapKit.framework in Frameworks */,
 				56A649FD198F584100451413 /* CoreText.framework in Frameworks */,
-				56A647F7198F3A8B00451413 /* CoreGraphics.framework in Frameworks */,
 				56A647FB198F3A8B00451413 /* CoreData.framework in Frameworks */,
 				56A647F9198F3A8B00451413 /* UIKit.framework in Frameworks */,
 				56A647F5198F3A8B00451413 /* Foundation.framework in Frameworks */,
@@ -1516,6 +1538,12 @@
 		56A647F3198F3A8B00451413 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3D313901990DCAC00EE1B9C /* libPods-BaiduMapSDK.a */,
+				E3E2FBB51990D4DB0062A4F2 /* SystemConfiguration.framework */,
+				E3E2FBB31990D4980062A4F2 /* OpenGLES.framework */,
+				E3E2FBB11990D48C0062A4F2 /* MessageUI.framework */,
+				E3E2FBAF1990D4810062A4F2 /* Security.framework */,
+				E3E2FBAA1990B93E0062A4F2 /* AVFoundation.framework */,
 				56A64C0E198F6F0800451413 /* MobileCoreServices.framework */,
 				56A64C0C198F6EEA00451413 /* OpenAL.framework */,
 				56A64C0A198F6EE200451413 /* CoreTelephony.framework */,
@@ -1594,6 +1622,10 @@
 			children = (
 				56A6483E198F430600451413 /* FoundViewController.h */,
 				56A6483F198F430600451413 /* FoundViewController.m */,
+				E3B9CAD21990AC9D00DE07F4 /* GmFoundScanViewController.h */,
+				E3B9CAD31990AC9D00DE07F4 /* GmFoundScanViewController.m */,
+				E3E2FBAC1990D0940062A4F2 /* GuseCarViewController.h */,
+				E3E2FBAD1990D0940062A4F2 /* GuseCarViewController.mm */,
 			);
 			path = FoundControllers;
 			sourceTree = "<group>";
@@ -3378,6 +3410,7 @@
 				56A64B88198F6BD400451413 /* LeftViewController.m in Sources */,
 				56A6491D198F55A500451413 /* FBCirclePraiseModel.m in Sources */,
 				56A648FA198F512A00451413 /* QBImagePickerGroupCell.m in Sources */,
+				E3B9CAD41990AC9D00DE07F4 /* GmFoundScanViewController.m in Sources */,
 				56A64B98198F6BD400451413 /* SMSInvitationViewController.m in Sources */,
 				1366029C1990ABE300F2BEEC /* LTools.m in Sources */,
 				56A64ABA198F6AD800451413 /* GRXX4ViewController.m in Sources */,
@@ -3391,6 +3424,7 @@
 				56A64DFE198F7B1E00451413 /* MessageModel.m in Sources */,
 				56A64B55198F6BC700451413 /* FbmessageinvitationCell.m in Sources */,
 				136602AE1990B6D600F2BEEC /* LBaseViewController.m in Sources */,
+				E3E2FBAE1990D0940062A4F2 /* GuseCarViewController.mm in Sources */,
 				56A648DC198F512A00451413 /* FBCircleWebViewController.m in Sources */,
 				56A64BF2198F6CA200451413 /* UMContactViewController.m in Sources */,
 				1371C56E1991DFD600D937CD /* MyBBSCell.m in Sources */,
@@ -3642,6 +3676,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/pods/baidumapsdk",
+					"$(SRCROOT)/",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -3674,6 +3712,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/pods/baidumapsdk",
+					"$(SRCROOT)/",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -3683,16 +3725,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFC5F1F3A29F440FB92E1246 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
 				INFOPLIST_FILE = "FBCircle/FBCircle-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3701,16 +3745,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFC5F1F3A29F440FB92E1246 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
 				INFOPLIST_FILE = "FBCircle/FBCircle-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
