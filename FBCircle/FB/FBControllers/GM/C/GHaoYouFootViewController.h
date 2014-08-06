@@ -20,6 +20,8 @@
 
 #import "FBCircleDetailViewController.h"
 
+#import "EGORefreshTableHeaderView.h"
+
 
 @interface GHaoYouFootViewController : MyViewController<UITableViewDataSource,UITableViewDelegate,EGORefreshTableHeaderDelegate,UIScrollViewDelegate>
 {

@@ -384,26 +384,6 @@ BOOL ImageDataHasPNGPreffix(NSData *data) {
     });
 }
 
-- (float)checkTmpSize
-{
-    float totalSize = 0;
-    NSDirectoryEnumerator *fileEnumerator = [[NSFileManager defaultManager] enumeratorAtPath:self.diskCachePath];
-    for (NSString *fileName in fileEnumerator)
-    {
-        NSString *filePath = [self.diskCachePath stringByAppendingPathComponent:fileName];
-        
-        NSDictionary *attrs = [[NSFileManager defaultManager] attributesOfItemAtPath:filePath error:nil];
-        
-        unsigned long long length = [attrs fileSize];
-        
-        totalSize += length / 1024.0 / 1024.0;
-    }
-    //    NSLog(@"tmp size is %.2f",totalSize);
-    
-    return totalSize;
-}
-
-
 - (void)cleanDisk {
     [self cleanDiskWithCompletionBlock:nil];
 }

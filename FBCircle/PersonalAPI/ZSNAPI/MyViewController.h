@@ -49,6 +49,11 @@ typedef enum
 //右上角按钮
 @property(nonatomic,strong)UIButton * my_right_button;
 
+//左上角按钮
+@property(nonatomic,strong)UIButton * left_button;
+
+@property(nonatomic,retain)UILabel *titleLabel;
+
 
 -(void)setMyViewControllerLeftButtonType:(MyViewControllerLeftbuttonType)theType WithRightButtonType:(MyViewControllerRightbuttonType)rightType;
 

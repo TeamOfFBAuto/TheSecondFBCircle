@@ -40,8 +40,14 @@
     [super viewWillAppear:animated];
     
     
-    [self.navigationController.navigationBar setBackgroundImage:FBCIRCLE_NAVIGATION_IMAGE forBarMetrics: UIBarMetricsDefault];
+//    [self.navigationController.navigationBar setBackgroundImage:FBCIRCLE_NAVIGATION_IMAGE forBarMetrics: UIBarMetricsDefault];
 //    FBCircleNavBackGroundImage@2x
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"daohanglan_bg_640_88"] forBarMetrics: UIBarMetricsDefault];
+    
+    self.navigationController.navigationBar.barStyle = UIStatusBarStyleDefault;
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];//返回按钮颜色
+    
     
     UIColor * cc = RGBCOLOR(91,138,59);
     
@@ -66,6 +72,12 @@
     spaceButton.width = MY_MACRO_NAME?-5:5;
     
     self.navigationController.navigationBarHidden=NO;
+    
+    self.titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 21)];
+    _titleLabel.textAlignment = NSTextAlignmentCenter;
+    _titleLabel.textColor = [UIColor whiteColor];
+    
+    self.navigationItem.titleView = _titleLabel;
    
 }
 
@@ -103,23 +115,24 @@
         
         self.navigationItem.leftBarButtonItems = @[spaceButton,leftBarButton];;
         
-    }else if (theType == MyViewControllerRightbuttonTypeText)
+    }else if (theType == MyViewControllerLeftbuttonTypeText)
     {
-        UIButton * left_button = [UIButton buttonWithType:UIButtonTypeCustom];
+        self.left_button = [UIButton buttonWithType:UIButtonTypeCustom];
         
-        left_button.frame = CGRectMake(0,0,30,44);
+        _left_button.frame = CGRectMake(0,0,100,44);
         
-        left_button.titleLabel.textAlignment = NSTextAlignmentRight;
+        _left_button.titleLabel.textAlignment = NSTextAlignmentRight;
         
-        [left_button setTitle:_leftString forState:UIControlStateNormal];
+        [_left_button setTitle:_leftString forState:UIControlStateNormal];
         
-        left_button.titleLabel.font = [UIFont systemFontOfSize:15];
+        _left_button.titleLabel.font = [UIFont systemFontOfSize:15];
+        [_left_button setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
+        [_left_button setTitleColor:RGBCOLOR(91,138,59) forState:UIControlStateNormal];
+//        [_left_button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
         
-        [left_button setTitleColor:RGBCOLOR(91,138,59) forState:UIControlStateNormal];
+        [_left_button addTarget:self action:@selector(leftButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         
-        [left_button addTarget:self action:@selector(leftButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-        
-        self.navigationItem.leftBarButtonItems = @[spaceButton,[[UIBarButtonItem alloc] initWithCustomView:left_button]];
+        self.navigationItem.leftBarButtonItems = @[spaceButton,[[UIBarButtonItem alloc] initWithCustomView:_left_button]];
     }else
     {
         
@@ -202,6 +215,8 @@
         _my_right_button.frame = CGRectMake(0,0,rightImage.size.width,rightImage.size.height);
         
         UIBarButtonItem * rightBarButton = [[UIBarButtonItem alloc] initWithCustomView:_my_right_button];
+        
+//        _my_right_button.backgroundColor = [UIColor orangeColor];
         
         self.navigationItem.rightBarButtonItems = @[spaceButton,rightBarButton];;
         

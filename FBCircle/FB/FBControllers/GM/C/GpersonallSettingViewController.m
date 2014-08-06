@@ -424,7 +424,7 @@
     
     //    [[SDImageCache sharedImageCache] clearMemory];//可有可无
     
-    float tmpSize = [[SDImageCache sharedImageCache] checkTmpSize];
+    float tmpSize = [[SDImageCache sharedImageCache] getSize];
     
     
     
