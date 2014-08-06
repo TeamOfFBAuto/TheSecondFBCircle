@@ -7,3 +7,4 @@ pod 'UMeng', '~> 2.2.1'
 pod 'UMengFeedback', '~> 1.4.1'
 
 pod 'WeChatSDK', '~> 0.0.1'
+pod 'MBProgressHUD', '~> 0.8'

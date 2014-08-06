@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MicroBBSViewController : UIViewController
+//#import "LBaseViewController.h"
+#import "MyViewController.h"
+@interface MicroBBSViewController :MyViewController
 
 @end
