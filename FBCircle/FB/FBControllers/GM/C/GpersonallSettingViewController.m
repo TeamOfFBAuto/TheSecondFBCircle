@@ -92,11 +92,6 @@
     
     UIView *userFaceView = [[UIView alloc]initWithFrame:CGRectMake(0, 6, 320, 103)];
     
-    
-    
-    
-    
-    
     //[self.view addSubview:userFaceView];
     
     //箭头
