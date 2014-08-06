@@ -14,6 +14,9 @@
 
 #import "FullyLoaded.h"
 
+#import "SDImageCache.h"
+
+#import "UIImageView+AFNetworking.h"
 
 @interface MineViewController ()
 
@@ -432,7 +435,7 @@
     
     //    [[SDImageCache sharedImageCache] clearMemory];//可有可无
     
-    float tmpSize = [[SDImageCache sharedImageCache] checkTmpSize];
+    float tmpSize = [[SDImageCache sharedImageCache] getSize];
     
     
     
