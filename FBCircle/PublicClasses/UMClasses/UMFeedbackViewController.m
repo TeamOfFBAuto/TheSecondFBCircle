@@ -64,6 +64,8 @@ static UITapGestureRecognizer *tapRecognizer;
 }
 
 - (void)setupTableView {
+    
+    
     _tableViewTopMargin = self.navigationController.navigationBar.frame.size.height;
     
     BOOL contactViewHide = [[[NSUserDefaults standardUserDefaults] objectForKey:@"UMFB_ShowContactView"] boolValue];
@@ -288,7 +290,7 @@ static UITapGestureRecognizer *tapRecognizer;
 }
 
 - (BOOL)prefersStatusBarHidden {
-    return YES;
+    return NO;
 }
 
 - (IBAction)sendFeedback:(id)sender {

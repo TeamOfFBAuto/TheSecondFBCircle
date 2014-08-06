@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190EAF3D1991D8F3006CF249 /* mineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 190EAF3C1991D8F3006CF249 /* mineTableViewCell.m */; };
 		56A647F5198F3A8B00451413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A647F4198F3A8B00451413 /* Foundation.framework */; };
 		56A647F7198F3A8B00451413 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A647F6198F3A8B00451413 /* CoreGraphics.framework */; };
 		56A647F9198F3A8B00451413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A647F8198F3A8B00451413 /* UIKit.framework */; };
@@ -753,6 +754,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190EAF3B1991D8F3006CF249 /* mineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mineTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		190EAF3C1991D8F3006CF249 /* mineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mineTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		56A647F1198F3A8B00451413 /* FBCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A647F4198F3A8B00451413 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56A647F6198F3A8B00451413 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1309,6 +1312,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190EAF3A1991D7FE006CF249 /* SZKSecondControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SZKSecondControl;
+			sourceTree = "<group>";
+		};
 		56A647E8198F3A8B00451413 = {
 			isa = PBXGroup;
 			children = (
@@ -1518,6 +1528,8 @@
 		56A64835198F425400451413 /* MineViews */ = {
 			isa = PBXGroup;
 			children = (
+				190EAF3B1991D8F3006CF249 /* mineTableViewCell.h */,
+				190EAF3C1991D8F3006CF249 /* mineTableViewCell.m */,
 			);
 			path = MineViews;
 			sourceTree = "<group>";
@@ -1536,6 +1548,7 @@
 		56A64837198F428500451413 /* FBControllers */ = {
 			isa = PBXGroup;
 			children = (
+				190EAF3A1991D7FE006CF249 /* SZKSecondControl */,
 				56A64B28198F6BA900451413 /* SZKControls */,
 				56A64A4F198F6AD800451413 /* GM */,
 				56A6483A198F42F600451413 /* MainViewController.h */,
@@ -3131,6 +3144,7 @@
 				56A6488C198F502700451413 /* NSString+Emoji.m in Sources */,
 				56A648F0198F512A00451413 /* QBImagePickerAssetCell.m in Sources */,
 				56A64B4B198F6BC700451413 /* FriendAttribute.m in Sources */,
+				190EAF3D1991D8F3006CF249 /* mineTableViewCell.m in Sources */,
 				56A64B8A198F6BD400451413 /* LoginViewController.m in Sources */,
 				56A64B4D198F6BC700451413 /* AddFriendCustomCell.m in Sources */,
 				56A64AB6198F6AD800451413 /* GpersonallSettingViewController.m in Sources */,
